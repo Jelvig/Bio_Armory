@@ -11,4 +11,4 @@ my_seq = Seq('''GGGAGGCTATCCTGTAAGACATCCTCTGCCGTTACAGCGCTCTTCCGTGATCAGCATTATGGAG
 
 nucleo = ['A','C','G','T']
 for i in nucleo:
-    print(my_seq.count(i), sep=' ', end=' ')
+    print(my_seq.count(i), sep=' ', end=' ') #-> 214 227 199 220
